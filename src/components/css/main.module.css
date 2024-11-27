@@ -1,0 +1,47 @@
+.page_content {
+  padding: 55px 20%;
+  text-align: center;
+}
+
+.filter_container {
+  margin: 20px 0px;
+  text-align: left;
+}
+
+.todo_list {
+  text-align: start;
+  margin: 20px 0px;
+}
+
+.timestamp {
+  font-size: 14px;
+  color: gray;
+}
+
+.edit_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit_btn {
+  border: none;
+  margin: 5px 10px;
+  padding: 5px 7px;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+}
+
+.delete_btn {
+  border: none;
+  margin: 5px 10px;
+  padding: 5px 7px;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .page_content {
+      padding: 55px 10px
+  }
+}

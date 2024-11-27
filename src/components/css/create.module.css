@@ -1,0 +1,55 @@
+.success {
+    margin: 20px 0px;
+    color: green;
+}
+
+.danger {
+    color: red;
+}
+
+.page_content {
+    padding: 55px 20%;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.input:focus {
+    outline: 0;
+    border: 1px solid #0d6efd;
+}
+
+.status_container {
+    text-align: start;
+}
+
+.create_btn_container {
+    display: flex;
+    justify-content: center;
+    padding: 5px 50px;
+}
+
+.create_btn {
+    background-color: #0d6efd;
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 20px;
+    margin: 5px 0px;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    .page_content {
+        padding: 55px 10px
+    }
+}

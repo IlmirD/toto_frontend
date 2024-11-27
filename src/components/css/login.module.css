@@ -1,0 +1,64 @@
+.success {
+    color: green;
+}
+
+.danger {
+    color: red;
+}
+
+.page_content {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.login_form {
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.input {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.input:focus {
+    outline: 0;
+    border: 1px solid #0d6efd;
+}
+
+.login_btn_container {
+    display: flex;
+    justify-content: center;
+    padding: 5px 50px;
+}
+
+.login_btn {
+    background-color: #0d6efd;
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 20px;
+    margin: 5px 0px;
+    color: white;
+    text-align: center;
+}
+
+.go_to_page {
+    color: #0d6efd;
+}
+
+@media screen and (max-width: 480px) {
+    .login_form {
+        width: 90vw;
+    }
+}
